@@ -46,6 +46,7 @@ function arraySum(a, b)
     return result;
 }
 
+console.log("ded: " + ded(30, 20));
 console.log("sum: " + sum(30, 20));
 console.log("max: " + max(10, 13));
 console.log("factorial: " + factorial(3));
