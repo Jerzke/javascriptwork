@@ -1,6 +1,6 @@
 function sum(a, b) {
     let value1 = a;
-    let value2 = a;
+    let value2 = b;
     let result = value1 + value2;
     return result;
 }
@@ -9,16 +9,16 @@ function max(a, b) {
     if (a > b) {
         return a;
     } else {
-        return a;
+        return b;
     }
 }
 
 function factorial(a)
 {    
     let result = a;
-    for(let i = a; i > 0; i--)
+    for(let i = a; i > 1; i--)
     {
-        result = result * i - 1;   
+        result = result * (i - 1);   
     }        
 
     return result;                        
@@ -31,9 +31,9 @@ function arraySum(a, b)
 {   
     let result = 0;
 
-    for(let i = 1; i < a.length; i++)
+    for(let i = 0; i < a.length; i++)
     {        
-        result = a[i] + b[i];        
+        result += a[i] + b[i];        
     }
 
     return result;
